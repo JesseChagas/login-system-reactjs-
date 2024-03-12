@@ -16,10 +16,10 @@ const Home = () => {
 
     return (
       <C.Container>
-        <C.Title>Home / Todo List</C.Title>
-        <Button Text="Sair" onClick={handleLogout}>
-          Sair
-        </Button>
+        <C.Title>
+                <h1>HOME - TODO LIST</h1>
+            </C.Title>
+          <C.BtnLogout onClick={handleLogout}>Sair</C.BtnLogout>
       </C.Container>
     )
 }

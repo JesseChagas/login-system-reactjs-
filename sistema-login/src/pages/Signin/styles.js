@@ -102,8 +102,6 @@ export const BtnLogin = styled.button`
   box-shadow: 0px 10px 40px -12px #00ff8052;
 `;
 
-// Add media queries as needed
-
 
 export const LabelError = styled.label`
   font-size: 17px;
