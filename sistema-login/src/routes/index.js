@@ -6,10 +6,11 @@ import Signup from "../pages/Signup";
 
 const Private = ({Item}) => {
     const signed = false;
-    return signed > 0 ? <Item/> : <Signin/>;
+
+    return signed > 0 ? <Item /> : <Signin />;
 }
 
-const RoutesApps = () => {
+const RoutesApp = () => {
     return(
         <BrowserRouter>
             <Fragment>
@@ -24,4 +25,4 @@ const RoutesApps = () => {
     );
 };
 
-export default RoutesApps;
+export default RoutesApp;
