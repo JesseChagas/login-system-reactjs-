@@ -1,10 +1,10 @@
 import React from 'react'
 import * as C from "./styles";
 
-const Input = ({type, placeholder, valve, onChange}) => {
+const Input = ({type, placeholder, value, onChange}) => {
   return (
     <C.Input
-      valve = {valve}
+      value = {value}
       onChange = {onChange}
       type = {type}
       placeholder = {placeholder}
