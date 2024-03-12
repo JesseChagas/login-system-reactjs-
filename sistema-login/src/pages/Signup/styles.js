@@ -21,7 +21,7 @@ export const Content = styled.div`
   max-width: 350px;
   padding: 20px;
   border-radius: 5px;
-  height: 45%;
+  height: 50%;
 `;
 
 export const Label = styled.label`

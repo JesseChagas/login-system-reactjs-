@@ -54,7 +54,7 @@ export const AuthProvider = ({children}) =>{
             newUser = [{email, password}];
         }
 
-        localStorage.setItem("users_db", JSON.stringfy(newUser));
+        localStorage.setItem("users_db", JSON.stringify(newUser));
         return;
     };
 
@@ -69,5 +69,5 @@ export const AuthProvider = ({children}) =>{
         >
             {children}
         </AuthContext.Provider>
-    );
+    );    
 };

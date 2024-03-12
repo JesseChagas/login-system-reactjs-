@@ -33,8 +33,6 @@ const Signup = () => {
     };
 
 
-
-
   return (
     <C.Container>
         <C.Label>SISTEMA DE LOGIN</C.Label>

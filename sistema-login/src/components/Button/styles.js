@@ -7,13 +7,13 @@ export const Button = styled.button `
     border-radius: 5px;
     width: 80%;
     cursor: pointer;
-    background-color: #046ee5;
+    background-color: #00cc66;
     color: white;
     font-weight: 600;
     font-size: 16px;
 
     &:hover {
-        background-color: #005eef;
+        background-color: #00b359;
       }
    
 `;
