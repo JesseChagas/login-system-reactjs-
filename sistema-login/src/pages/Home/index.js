@@ -1,6 +1,5 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import Button from '../../components/button'
 import useAuth from '../../hooks/useAuth'
 import * as C from "./styles"
 
